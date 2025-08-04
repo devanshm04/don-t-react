@@ -9,7 +9,10 @@ function App(){
 
    const passRef = useRef(null)
 
-  // in usecallback we r using it bcoz if any changes in dependency arr occur this will optimize the method
+  
+   // it just store it to optimize it and we have used setpassword instead of 
+   //  pass bcoz pass will keep on changing and wo usko run he karte jaayga and optimize he karta rhega
+   // in usecallback we r using it bcoz if any changes in dependency arr occur this will optimize the method
   const Passwordgenerator = useCallback(() => {   
     let password = ""
     let str = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
