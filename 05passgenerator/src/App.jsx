@@ -56,7 +56,7 @@ function App(){
         />
         <button 
         onClick={copypasstoclip}
-          className='bg-blue-500 text-white px-4 py-2'
+          className='bg-blue-500 text-white px-4 py-2 transition-transform duration-200 hover:bg-green-600 hover:scale-105 active:scale-95 active:bg-green-700'
            >Copy</button>
 
 
